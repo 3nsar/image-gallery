@@ -1,0 +1,41 @@
+{
+    "images": [
+      {
+        "title": "Sunset Beach",
+        "description": "A beautiful sunset over the beach.",
+        "url": "https://example.com/images/sunset_beach.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "title": "Mountain Landscape",
+        "description": "A scenic view of mountains during sunrise.",
+        "url": "https://example.com/images/mountain_landscape.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "title": "City Skyline",
+        "description": "A panoramic view of the city skyline at night.",
+        "url": "https://example.com/images/city_skyline.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "title": "Forest Path",
+        "description": "A tranquil path through a dense forest.",
+        "url": "https://example.com/images/forest_path.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    ]
+  }
+  
