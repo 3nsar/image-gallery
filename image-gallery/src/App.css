@@ -19,8 +19,20 @@ h1{
   text-align: center;
 }
 
-.img-container{
-  
-  
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
 }
 
+.img-container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  
+}

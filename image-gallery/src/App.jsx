@@ -17,13 +17,13 @@ const App = () => {
   },[]) 
 
   return (
-    <div>
+    <div className='container'>
       <h1>Hoc est porticus</h1>
+      <div className='img-container'>
       {images.map((image)=>(
-        <div className='img-container'>
            <img src={image.download_url} alt="pic" height="200px"/>
-        </div>
       ))}
+      </div>
     </div>
   );
 };
