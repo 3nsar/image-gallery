@@ -3,13 +3,13 @@ import './App.css'
 import axios from 'axios';
 
 const App = () => {
-  
+  /*
   const [images, setImages] = useState([])
   const url = "https://picsum.photos/v2/list?page=2&limit=10"
 
-  useEffect(()=>{
+ useEffect(()=>{
     const fetchData = async ()=>{
-      const res = await axios.get(url)
+      const res = await axios.get(url) 
       setImages(res.data)
       console.log(res.data)
     }
@@ -25,7 +25,32 @@ const App = () => {
       ))}
       </div>
     </div>
+    
   );
-};
+  
+*/
+
+  const [images, setImages] = useState([])
+  const URL = "https://picsum.photos/v2/list?page=2&limit=10"
+
+  useEffect(()=>{
+    const fetchData = async ()=>{
+      const res = await axios.get(URL)
+      console.log(res.data)
+      setImages(res.data)
+    }
+    fetchData()
+  },[])
+
+  return(
+    <div>
+      {images.map((image)=>(
+        <h1>{image.author}</h1>
+      ))}
+    </div>
+  )
+
+
+}
 
 export default App;
